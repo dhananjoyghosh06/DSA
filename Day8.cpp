@@ -1,17 +1,14 @@
 //  Question - Count Inversions in an array 
 // Method used - Merge Sort 
 //Learned and enjoyed alot by doing this 
-
-
-
-//{ Driver Code Starts
-
+//TC-O(nlogn)
+//SC -O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 
-// } Driver Code Ends
+
 class Solution{
   public:
     // arr[]: Input Array
