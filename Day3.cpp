@@ -54,12 +54,13 @@ public:
         int n= nums.size();
         sort(nums.begin(), nums.end());
         int maxi = arr[n-1]+k;
-        int mini = arr[0]+k
+        int mini = arr[0]+k;
 
         for(int i = 0 ;i<n;i++){
             sum +=nums[i];
             maxi=max(maxi,sum);
             if(sum <0){
+                
                 sum =0;
             }
         }   

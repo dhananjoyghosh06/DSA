@@ -1,5 +1,5 @@
 // Q . Quick Sort 
-//TC-O(nlogn)
+//TC-O(nlogn)   
 //SC- O(n)
 #include <bits/stdc++.h>
 using namespace std;
@@ -44,3 +44,33 @@ int main() {
     
     return 0;
 }
+
+//Q2. Subsets using recursion  Leetcode(78)
+// Method used - Recursion
+// TC - 2^n
+//SC- 2^n
+
+class Solution {
+public:
+    void edit(vector<int> nums, vector<vector<int>>&ans ,  vector<int>op, int i){
+        if(i>=nums.size()) {
+            ans.push_back(op);
+            return ;
+        }
+        //exclude 
+        edit(nums, ans, op, i+1)
+        ;
+        //include
+        int ele = nums[i];
+        op.push_back(ele);
+        edit(nums,ans,op,i+1);
+    }
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>>ans;
+        vector<int>op;
+
+        edit(nums,ans,op,0);
+
+        return ans;
+    }
+};
