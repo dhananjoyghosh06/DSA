@@ -29,8 +29,6 @@ vector<string> subsequences(string str){
 	return ans;
 	
 }
-
-//String Permutations 
 //Mobile keypad number letter combinations 
 //Method used - Recursion + Backtracking
 class Solution {
