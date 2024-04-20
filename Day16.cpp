@@ -38,3 +38,64 @@ int findMaxValue(vector<vector<int>>& mat, int n) {
 	
 	return ans;
 }
+
+
+//Q2- Rotate a matrix by 90 Degree Leetcode 48
+//Method Used - brute force 
+//TC - O(n^2)
+//SC- O(n)
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        vector <int> ans;
+        int n = matrix.size();
+
+        for(int j =0; j<n; j++){
+            for(int i=n-1;i>=0;i--){
+                ans.push_back(matrix[i][j]);
+            }
+        }
+        int idx =0;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                matrix[i][j] = ans[idx++];
+            }
+        }
+    }
+
+};
+
+//Q2 method2 - Optimal apprach
+//TC- O(n^2)
+//SC-O(1)
+
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        vector <int> ans;
+        int n = matrix.size();
+
+        // for(int j =0; j<n; j++){
+        //     for(int i=n-1;i>=0;i--){
+        //         ans.push_back(matrix[i][j]);
+        //     }
+        // }
+        // int idx =0;
+        // for(int i=0;i<n;i++){
+        //     for(int j=0;j<n;j++){
+        //         matrix[i][j] = ans[idx++];
+        //     }
+        // }
+
+        for(int i =0;i<n;i++){
+            for(int j = i;j<n;j++){
+                swap(matrix[i][j] , matrix[j][i]);
+            }
+        }
+        
+        for(int i=0;i<n;i++){
+            reverse(matrix[i].begin(), matrix[i].end());
+        }
+    }
+
+};
