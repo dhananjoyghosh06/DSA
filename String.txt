@@ -1,0 +1,30 @@
+1. Reverse a string // @Day 18 
+2. Cheak wheather a string is palindrome or not ?  // @Day19 
+3. Find duplicate characters in a string // @Day20
+4. Write a code to cheak whether a string is a rotation of another // @Day21
+5. Count and say problem // @Day 22
+6. Write a program to find the longest palindrome in a string //@Day23
+7. Find longest recurring subsequence in String // dew
+8. Print all subsequece of a string // @Day26
+9. Print all permutations of a given string //@Day26
+10. Split the binary string into two substring with equal 0's and 1's
+11. Word Wrap Problem 
+12. Edit Distance 
+13. Find next greater number with same set of digits 
+14. Balanced parenthesis problem 
+15. Word break problem 
+16. Rabin karp algo
+17. KMP ALGO
+18. Convert a sentence into its equivalent mobile numeric keylad sequence 
+19. Count all palindromic subsequence in a given string 
+20. Minimum number of bracket reversals needed to make an expression balanced
+21. Count of number of given string in 2D character array
+22. Search a word in a 2D Grid of Characters
+23. Boyer Moore Algorithm for pattern Searching 
+24. Converting Roman Numerals to decimal
+25. Longest common prefix
+26. Number of flips to make binary string alternate 
+27. Find the first repeated word in a string 
+28. Minimum number of swaps for bracket balancing 
+29. Find the longest common subsequence between two strings 
+30. Program to generate all possible valid IP addresses from given string

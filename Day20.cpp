@@ -1,4 +1,4 @@
-//Q1 : Remove duplicate from a string and return it in lexixographycal order 
+//Q1 : Remove duplicate from a string and return it in lexicographical order 
 //Approach - USED a vector which stores the last occurence of the string 
 // USED a stack to store the element with maintaing the lexicographical order 
 // USED a vector which stores boolean values for cheaking the character's previous occurence 

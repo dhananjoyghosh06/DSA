@@ -2,6 +2,7 @@
 //Method used - Binary Search 
 //TC- O(n*n)
 //SC-O(n)
+
 class Solution {
 public:
     string longestPalindrome(string s) {

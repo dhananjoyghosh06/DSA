@@ -1,4 +1,5 @@
-//Q1. 1st approach - Using queue
+//Q1. Rotate String 
+//1st approach - Using queue
 // TC- O(n)
 //SC-O(N^2)
 
@@ -19,8 +20,9 @@ bool solve(string s, string goal){
     int k = 0;
     while(k<s.length()){
         char p = q1.front();
-        q1.push(p);
         q1.pop();
+        q1.push(p);
+        
         
         
         if(q1==q2) return true;
@@ -41,3 +43,18 @@ int main(){
 //Q2 > Method used - Concatenation method 
 // TC- O(n)
 //SC-O(1)
+class Solution {
+public:
+    bool rotateString(string s, string goal) {
+      if(s.length() != goal.length()) return false;
+      //concatenate 
+      s = s+s;
+      //find method
+      int idx = s.find(goal) ;
+      //
+      if(idx == -1 )  return false;
+
+      return true
+      ;
+    }
+}; 
