@@ -7,17 +7,17 @@
 7. Find longest recurring subsequence in String // dew
 8. Print all subsequece of a string // @Day26
 9. Print all permutations of a given string //@Day26
-10. Split the binary string into two substring with equal 0's and 1's
-11. Word Wrap Problem 
-12. Edit Distance 
-13. Find next greater number with same set of digits 
-14. Balanced parenthesis problem 
-15. Word break problem 
-16. Rabin karp algo
-17. KMP ALGO
-18. Convert a sentence into its equivalent mobile numeric keylad sequence 
-19. Count all palindromic subsequence in a given string 
-20. Minimum number of bracket reversals needed to make an expression balanced
+10. Split the binary string into two substring with equal 0's and 1's // @Day26
+11. Word Wrap Problem //DP 
+12. Edit Distance //DP
+13. Find next greater number with same set of digits // @Day27
+14. Balanced parenthesis problem //Done
+15. Word break problem //DP O RECURSIVE QUESTIONS
+16. Rabin karp algo // Hashing
+17. KMP ALGO // Didn't understand
+18. Convert a sentence into its equivalent mobile numeric keypad sequence // @Day28
+19. Count all palindromic subsequence in a given string // @Day28
+20. Minimum number of bracket reversals needed to make an expression balanced // @Day28
 21. Count of number of given string in 2D character array
 22. Search a word in a 2D Grid of Characters
 23. Boyer Moore Algorithm for pattern Searching 

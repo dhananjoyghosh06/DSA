@@ -44,7 +44,7 @@ void solve (vector<string>&ans, string s, int index){
     // 
     for(int i=index;i<s.length();i++){
         swap(s[i],s[index]);
-        ans.push_back(s);
+        solve(ans,s, index+1);
         swap(s[i],s[index]);
     }
     
