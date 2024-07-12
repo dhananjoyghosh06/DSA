@@ -77,7 +77,7 @@ int functionCount(string s){
     for(int i =0;i<s.length();i++){
         if(s[i]=='0') countOfZeros++;
         else countOfOnes++;
-        if(countOfZeros == countOfOnes ) count++;
+        if(countOfZeros == countOfOnes) count++;
         
     }
     if(countOfOnes != countOfZeros) return -1;
@@ -88,5 +88,6 @@ int main()
 {
     string str = "0111100010";
     cout<< functionCount(str)<<endl;
+    
     
 }
