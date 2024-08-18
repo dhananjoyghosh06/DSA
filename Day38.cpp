@@ -136,3 +136,182 @@ int main() {
      d.printA();
     return 0;
 }
+
+//Q2. Reverse a queue
+//approach 1 
+//TC- O(n+logn)
+//SC- O(n)
+//{ Driver Code Starts
+//Initial Template for C++
+
+#include<bits/stdc++.h>
+using namespace std;
+
+// } Driver Code Ends
+//function Template for C++
+
+//Function to reverse the queue.
+class Solution
+{
+    public:
+    queue<int> rev(queue<int> q)
+    {
+        // add code here.
+        int n = q.size();
+        vector<int>temp;
+        while(!q.empty()){
+            temp.push_back(q.front());
+            q.pop();
+        }
+        int st = 0;
+        int end = n-1;
+        while(st<=end){
+            swap(temp[st++],temp[end--]);
+        }
+        for(int it : temp){
+            q.push(it);
+        }
+        return q;
+    }
+};
+//{ Driver Code Starts.
+int main()
+{
+    int test;
+    cin>>test; 
+    while(test--)
+    {
+    queue<int> q; 
+    int n, var; 
+    cin>>n; 
+    while(n--)
+    {
+        cin>>var; 
+        q.push(var);
+    }
+    Solution ob;
+    queue<int> a=ob.rev(q); 
+    while(!a.empty())
+    {
+        cout<<a.front()<<" ";
+        a.pop();
+    }
+    cout<<endl; 
+    }
+}
+
+//Approach 2 - Recursion 
+//TC-O(n);
+//SC-O(1)
+
+//{ Driver Code Starts
+//Initial Template for C++
+
+#include<bits/stdc++.h>
+using namespace std;
+
+// } Driver Code Ends
+//function Template for C++
+
+//Function to reverse the queue.
+class Solution
+{
+    public:
+    void helper(queue<int> &q){
+        if(q.empty()){
+            return;
+        }
+        int val = q.front();
+        q.pop();
+        helper(q);
+        q.push(val);
+    }
+    public:
+    queue<int> rev(queue<int> q)
+    {
+        // add code here.
+        
+        helper(q);
+        
+        return q;
+    }
+};
+
+//{ Driver Code Starts.
+int main()
+{
+    int test;
+    cin>>test; 
+    while(test--)
+    {
+    queue<int> q; 
+    int n, var; 
+    cin>>n; 
+    while(n--)
+    {
+        cin>>var; 
+        q.push(var);
+    }
+    Solution ob;
+    queue<int> a=ob.rev(q); 
+    while(!a.empty())
+    {
+        cout<<a.front()<<" ";
+        a.pop();
+    }
+    cout<<endl; 
+    }
+}
+
+
+//Approach - 3
+//SC-O(n)
+//TC-O(n+n)
+
+#include<bits/stdc++.h>
+using namespace std;
+
+class Solution
+{
+    public:
+    queue<int> rev(queue<int> q)
+    {
+        // add code here.
+        stack<int>st;
+        while(!q.empty()){
+            st.push(q.front());
+            q.pop();
+        }
+        
+        while(!st.empty()){
+            q.push(st.top());
+            st.pop();
+        }
+        return q;
+    }
+};
+
+int main()
+{
+    int test;
+    cin>>test; 
+    while(test--)
+    {
+    queue<int> q; 
+    int n, var; 
+    cin>>n; 
+    while(n--)
+    {
+        cin>>var; 
+        q.push(var);
+    }
+    Solution ob;
+    queue<int> a=ob.rev(q); 
+    while(!a.empty())
+    {
+        cout<<a.front()<<" ";
+        a.pop();
+    }
+    cout<<endl; 
+    }
+}
