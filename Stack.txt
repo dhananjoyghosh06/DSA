@@ -13,7 +13,7 @@
 13. Find the next smaller element
 14. Find the prev smaller element
 15. Evaluatethe postfix expression
-16. Reverse a stack using recursion
+16. Insert an element at the bottom of a given stack // @Day36 Q2
 17. sort a stack using recursion
 18. Implement a method to insert an element as its bottom without using any other data structure 
 19. Merge overlapping intervals
@@ -24,3 +24,4 @@
 24. Stack permutations
 25. Implement stack using queue
 26. Implement stack using Dequeue
+27. Insert an element at the kth position from the top in a stack // @Day36 Q3

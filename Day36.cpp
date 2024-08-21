@@ -66,3 +66,108 @@ int main(){
     
     cout<<n.getTop(1)<<endl;
 }
+
+//Insert an element at the bottom of a stack
+//SC-O(1)
+//TC-O(n)
+
+
+#include <iostream>
+#include<stack>
+using namespace std;
+
+void insertAtBottom(stack<int>&st,int element){
+    if(st.empty()){
+        st.push(element);
+        return;
+    }
+    int val = st.top();
+    st.pop();
+    insertAtBottom(st,element);
+    st.push(val);
+}
+int main() {
+    stack<int>st;
+    st.push(10);
+    st.push(20);
+    st.push(30);
+    st.push(40);
+    int element = 100;
+    insertAtBottom(st,element);
+    while(!st.empty()){
+        cout<<st.top()<<endl;
+        st.pop();
+    }cout<<endl;
+    return 0;
+}
+
+//Q3. Insert an element at the kth position from the top in a stack
+//SC-O(1)
+//TC-O(n+n+k)
+void insertAtKposition(stack<int>&st, int element, int k ,int count){
+        if(count>=(st.size()-k)){
+            st.push(element);
+            return;
+        }
+        int val = st.top();
+        st.pop();
+        count++;
+        insertAtKposition(st,element,k,count);
+        st.push(val);
+        
+}
+int main() {
+    stack<int>st;
+    st.push(10);
+    st.push(20);
+    st.push(30);
+    st.push(40);
+    int element = 100;
+   
+    insertAtKposition(st,element,3,0);
+    while(!st.empty()){
+        cout<<st.top()<<' ';
+        st.pop();
+    }cout<<endl;
+    
+    return 0;
+}
+
+//Q4. Reverse a stack 
+//TC-O(n*n)
+//SC-O(1)
+void insertAtBottom(stack<int>&st,int element){
+    if(st.empty()){
+        st.push(element);
+        return;
+    }
+    int val = st.top();
+    st.pop();
+    insertAtBottom(st,element);
+    st.push(val);
+}
+void reverseStack(stack<int>&st){
+    if(st.empty()){
+        return;
+    }
+    int val = st.top();
+    st.pop();
+    reverseStack(st);
+    insertAtBottom(st,val);
+}
+int main() {
+    stack<int>st;
+    st.push(10);
+    st.push(20);
+    st.push(30);
+    st.push(40);
+    int element = 100;
+     
+    reverseStack(st);
+    while(!st.empty()){
+        cout<<st.top()<<' ';
+        st.pop();
+    }cout<<endl;
+    
+    return 0;
+}
