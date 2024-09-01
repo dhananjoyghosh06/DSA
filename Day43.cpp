@@ -105,3 +105,65 @@ int main() {
 
     return 0;
 }
+
+
+//Q2. Find the sum of the maximum and minimum element of the widow the of size k 
+//TC-O(n*k)
+//SC-O(k)+O(k)
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int solve(int k, int n , int *arr){
+    deque<int>maxi(k);
+    deque<int>mini(k);
+    //1st window
+    for(int i=0;i<k;i++){
+        while(!maxi.empty() && arr[maxi.back()] <=arr[i]){
+            maxi.pop_back();
+        }
+        while(!mini.empty() && arr[mini.back()] >=arr[i]){
+            mini.pop_back();
+        }
+        maxi.push_back(i);
+        mini.push_back(i);
+    }
+    int sum =0;
+    for(int i=k;i<n;i++){
+        sum += (arr[maxi.front()]+arr[mini.front()]);
+   
+        
+        //removal of the prev window
+        while(( !maxi.empty() && (i-maxi.front()))>=k){
+            maxi.pop_front();
+        }
+         while(!mini.empty() && (i-mini.front())>=k){
+            mini.pop_front();
+        }
+        
+        //add the new element of the new window
+        while(!maxi.empty() && arr[maxi.back()] <=arr[i]){
+            maxi.pop_back();
+        }
+        while(!mini.empty() && arr[mini.back()] >=arr[i]){
+            mini.pop_back();
+        }
+        maxi.push_back(i);
+        mini.push_back(i);
+    }
+    
+    //for the last window 
+    sum += (arr[maxi.front()]+arr[mini.front()]);
+    
+    
+    return sum;
+}
+
+
+int main() {
+   int arr[7]={2,5,-1,7,-3,-1,2};
+   int k =4;
+    cout<<solve(k,7,arr);
+    return 0;
+}

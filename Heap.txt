@@ -1,0 +1,3 @@
+Q1. Implementation of Heap  -> @Day44 
+Q2. Build a maxHeap + Heapify Algorithm -> @Day45
+Q3. Heap sort -> @Day45
