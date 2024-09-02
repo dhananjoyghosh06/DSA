@@ -1,0 +1,4 @@
+Q1. Convert Infix to Postfix // @Day47
+Q2. Convert Infix to prefix // @Day47
+Q3. Evaluate Postfix // @Day47
+Q4. Evaluate prefix // @Day47
