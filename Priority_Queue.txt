@@ -1,10 +1,10 @@
-Q1.
-Q2.
-Q3.
+Q1.Kth smallest element in an array or list //@Day48
+Q2.Kth largest elements in an array // @Day48
+Q3.Is binary tree Heap ? //@Day49
 Q4.Merge two Max heap // @Day50
-Q5.
-Q6.
-Q7.
-Q8.
+Q5.Minimum cost of ropes // @Day51
+Q6.Convert BST to min heap // @Day51
+Q7.find kth largest sum subarray //@Day51
+Q8.Merge K sorted Array //@Day52
 Q9.
 Q10.
