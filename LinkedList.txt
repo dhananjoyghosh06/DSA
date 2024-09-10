@@ -1,0 +1,12 @@
+//Upcoming practices 
+
+1. Merge k sorted linked list
+2. Delete Nodes From Linked List Present in Array //Leetcode 3217
+3. Linked List in Binary Tree //Leetcode 1367
+4. Split Linked List in Parts // Leetcode 725
+5. Smallest range from k sorted List
+6.
+
+//Problems 
+
+1. Implementation op Singly Linked List // @Day53
