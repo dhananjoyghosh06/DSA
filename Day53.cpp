@@ -139,3 +139,60 @@ class Solution {
         return head;
     }
 };
+// Normal Loop method
+
+class Solution {
+  public:
+    Node *removeDuplicates(Node *head) {
+        if(head== NULL ) return head;
+        Node* curr = head;
+        while(curr!=NULL){
+            Node* temp = curr->next;
+            Node* prev = curr;
+            while(temp!=NULL){
+                if(curr->data== temp->data){
+                    Node* dupN = temp->next;
+                    Node* nodeTD= prev->next;
+                    delete nodeTD;
+                    prev->next = dupN;
+                    temp = prev->next;
+                }
+                 else{
+                     prev = temp;
+                     temp = temp->next;
+                 } 
+             
+            }
+            curr= curr->next;
+        }
+       return head;
+    }
+};
+
+
+//Q6. Remove Duplicates from Sorted list
+//TC-O(n)
+//SC-O(1)
+
+class Solution {
+  public:
+    // Function to remove duplicates from sorted linked list.
+    Node* removeDuplicates(Node* head) {
+
+        // code here
+        if(head== NULL ) return head;
+        Node* curr = head;
+        while(curr!=NULL){
+            if((curr->next !=NULL) && (curr->data == curr->next->data)){
+                Node* dup = curr->next->next;
+                Node* temp  = curr->next;
+                 delete temp;
+                 curr->next =dup;
+            }  
+            else {
+                curr= curr->next;
+            }
+        }
+       return head;
+    }
+};
