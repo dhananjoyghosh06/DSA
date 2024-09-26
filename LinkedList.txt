@@ -16,16 +16,16 @@
 5. Write a program to detect loop in a linked list. //@Day56
 7. Write a program to delete a loop in a linked list. //Day56
 8. Remove duplicates in a sorted Linked list. //@Day56
-10. Write a program to move the last element to front in a linked list.
-11. Add "1" to a number represented by linked list.
+10. Write a program to move the last element to front in a linked list. //@Day59
+11. Add "1" to a number represented by linked list. //@Day59
 12. Add two numbers represented by linked lists. //@Day57
-13. Intersection of two sorted linked list
-14. Intersection point of two linked list.
+13. Intersection of two sorted linked list //@Day59
+14. Intersection point of two linked list. //Day59
 15. Merge sort in linked list // @Day58
-16. Quick sort in linked list
+16. Quick sort in linked list  //@Day59
 17. Find the middle element of a linked list ///@Day54
 18. Check if a linkedlist is a circular linked list //@Day56
-19. Split a circular linked list into two halves
+19. Split a circular linked list into two halves 
 20. Check a singly linkedlist is a palindrome or not ? //@Day57
 21. Deletion from a circular linked list //@Day55 or //@Day56
 22. Reverse a doubly linkedlist //@Day56
