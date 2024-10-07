@@ -29,10 +29,10 @@
 20. Check a singly linkedlist is a palindrome or not ? //@Day57
 21. Deletion from a circular linked list //@Day55 or //@Day56
 22. Reverse a doubly linkedlist //@Day56
-23. Find pairs with a given sum in a DLL //
-24. count triplets in a sorted DLL whose sum is equal to given value 'X'
+23. Find pairs with a given sum in a DLL //@Day60
+24. count triplets in a sorted DLL whose sum is equal to given value 'X' //@Day60
 25. sort a k sorted Doubly linkedlist
-26. Rotate k nodes of a doubly linkedlist
+26. Rotate k nodes of a doubly linkedlist // @Day62
 27. Rotate a Doubly linkedlist in group of given size. 
 28. Can we reverse the linked in less than O(n) 
 29. Why quick sort is preffered for Arrays and Merge sort for linkedlist
