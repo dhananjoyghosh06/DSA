@@ -33,10 +33,10 @@
 24. count triplets in a sorted DLL whose sum is equal to given value 'X' //@Day60
 25. sort a k sorted Doubly linkedlist
 26. Rotate k nodes of a doubly linkedlist // @Day62
-27. Rotate a Doubly linkedlist in group of given size. 
-28. Can we reverse the linked in less than O(n) 
+27. Rotate a Doubly linkedlist in group of given size. //@Day62
+28. Can we reverse the linked in less than O(n) - NO
 29. Why quick sort is preffered for Arrays and Merge sort for linkedlist
-30. Flatten a linkedlist 
+30. Flatten a linkedlist // @Day63
 31. Sort a LL of '0's , '1's, '2'singly //@Day57
 32. Clone a linkedlist with next and random pointer //@Day58
 33. Merge k sorted linkedlist
