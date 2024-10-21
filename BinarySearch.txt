@@ -1,3 +1,8 @@
 upcoming Doubts
 
 Leetcode -  3281. Maximize Score of Numbers in Ranges
+
+1. Book allocation // @Day64
+2. Painter's Problems // @Day64
+3. Aggresive cows // @Day64
+4. Find the peak element ( leetcode 162) -- @Day64
