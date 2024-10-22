@@ -6,3 +6,19 @@ Leetcode -  3281. Maximize Score of Numbers in Ranges
 2. Painter's Problems // @Day64
 3. Aggresive cows // @Day64
 4. Find the peak element ( leetcode 162) -- @Day64
+5. Two sum II //@Day65
+6. Minimum size subarray sum // @Day65
+7. 3Sum smaller // Leetcode premium. Understood the question same approach as question number 6
+8. H-index II // @Day65
+9. Smallest rectangle enclosing black pixels 
+10. Count of Smaller Numbers after self
+11. Count of range sum
+12. Russian Doll envelopes 
+13. Data streams as disjoint intervals
+14. Max sum of rectangle No Larger than K
+15. Nth digit 
+16. Split array Largest sum
+17. Smallest good base 
+18. 132 pattern 
+19. Reverse pairs
+20. Divide chocolate 
