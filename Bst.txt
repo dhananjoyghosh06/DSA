@@ -1,0 +1,35 @@
+1. level Order Traversal
+2.  Reverse level order Traversal
+3. Height of a tree
+4. Diameter of a tree
+5. Mirror of a tree
+6. Inorder traversal both using recursion and iteration
+7. PostOrder traversal both using recursion and iteration
+8. PreOrder traversal both using recursion and iteration
+9. Left view of a tree
+10. right view of a tree
+11. Top view of a tree
+12. Bottom view of a tree
+13. Zig-zag traversal of a binary tree
+14. Check if a tree is balanced or not ?
+15. Diagonal traversal of a binary tree
+16. Boundary traversal of a binary tree
+17. Construct Binary tree from String with bracket representation 
+18. Convert binary tree with doubly linked list 
+19. Convert binary tree into sum tree 
+20. Construct binary tree from Inorder and PreOrder traversal
+21. Find minimum swaps required to Convert a binary tree into BST
+22. Cheak binary tree is sum tree or not 
+23. Check all leaf nodes are at same level 
+24. Check id a binary tree contains duplicate subtrees of size 2 or more
+25. Cheak if two trees are mirror or not
+26. Sum of Nodes on the longest path from root to leaf node
+27. Cheak if given graph is tree or not ?
+28. Find largest subtree sum in a tree
+29. Maximum sum of nodes in binary tree such that no two are adjacent 
+30. print all k sum paths in a binary tree 
+31. find LCA in a binary tree
+32. Find diatance between two nodes in a binary tree
+33. Kth ancestor of node in a binary tree
+34. find all duplicate subtree in a binary tree
+35. Tree Isomorphism problem
