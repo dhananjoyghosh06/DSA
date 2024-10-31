@@ -6,13 +6,13 @@
 6. Inorder traversal both using recursion and iteration //Day68 & 
 7. PostOrder traversal both using recursion and iteration //Day68
 8. PreOrder traversal both using recursion and iteration //@Day68
-9. Left view of a tree
-10. right view of a tree
-11. Top view of a tree
-12. Bottom view of a tree
+9. Left view of a tree //@Day70
+10. right view of a tree //@DAY70
+11. Top view of a tree //@Day70
+12. Bottom view of a tree //@Day70
 13. Zig-zag traversal of a binary tree  //@Day69 -- Maaza agya tha 
 14. Check if a tree is balanced or not ? //@Day69
-15. Diagonal traversal of a binary tree
+15. Diagonal traversal of a binary tree //@Day70
 16. Boundary traversal of a binary tree // @Day69
 17. Construct Binary tree from String with bracket representation 
 18. Convert binary tree with doubly linked list 
@@ -23,12 +23,12 @@
 23. Check all leaf nodes are at same level 
 24. Check id a binary tree contains duplicate subtrees of size 2 or more
 25. Cheak if two trees are mirror or not
-26. Sum of Nodes on the longest path from root to leaf node
+26. Sum of Nodes on the longest path from root to leaf node //@DAY71
 27. Cheak if given graph is tree or not ?
 28. Find largest subtree sum in a tree
 29. Maximum sum of nodes in binary tree such that no two are adjacent 
 30. print all k sum paths in a binary tree 
-31. find LCA in a binary tree
+31. find LCA in a binary tree //@Day71
 32. Find diatance between two nodes in a binary tree
 33. Kth ancestor of node in a binary tree
 34. find all duplicate subtree in a binary tree
