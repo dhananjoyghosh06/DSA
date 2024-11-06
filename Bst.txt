@@ -1,5 +1,5 @@
 1. level Order Traversal //@Day68
-2.  Reverse level order Traversal //
+2.  Reverse level order Traversal //#@Day74
 3. Height of a tree //@Day68
 4. Diameter of a tree //@Day69
 5. Mirror of a tree
@@ -17,7 +17,8 @@
 17. Construct Binary tree from String with bracket representation 
 18. Convert binary tree with doubly linked list 
 19. Convert binary tree into sum tree 
-20. Construct binary tree from Inorder and PreOrder traversal
+20. Construct binary tree from Inorder and PreOrder traversal // @Day73
+**. Construct binary tree using Postorder and inorder traversal //@Day73
 21. Find minimum swaps required to Convert a binary tree into BST
 22. Cheak binary tree is sum tree or not //@Day69
 23. Check all leaf nodes are at same level 
@@ -26,11 +27,14 @@
 26. Sum of Nodes on the longest path from root to leaf node //@DAY71
 27. Cheak if given graph is tree or not ?
 28. Find largest subtree sum in a tree
-29. Maximum sum of nodes in binary tree such that no two are adjacent 
+29. Maximum sum of nodes in binary tree such that no two are adjacent //@Day72
 30. print all k sum paths in a binary tree 
 31. find LCA in a binary tree //@Day71
-32. Find diatance between two nodes in a binary tree
+32. Find distance between two nodes in a binary tree
 33. Kth ancestor of node in a binary tree
 34. find all duplicate subtree in a binary tree
 35. Tree Isomorphism problem
 36. Check weather two given tree is identical or not ? //@Day69
+37. Flatten a linkedlist //@Day73
+38. Morris Traversal for Inorder // Too important @Day73
+39. Minimum time to burn a tree //@Day73
