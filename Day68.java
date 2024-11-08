@@ -1,7 +1,7 @@
 //  Q1. Implementation of Binary tree
 //Subquestions->
 /*
-    1. Build tree by recursion
+    1. Build tree by recursion 
     2. levelOrder Traversal
     3. Inorder Traversal
     4. PreOrder Traversal
@@ -24,7 +24,7 @@ import java.util.LinkedList;
     }
 }
 
-public class HelloWorld {
+public class Day68 {
    
     public static void main(String[] args) {
         Node root = null;

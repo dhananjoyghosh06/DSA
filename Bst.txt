@@ -3,7 +3,7 @@
 3. Height of a tree //@Day68
 4. Diameter of a tree //@Day69
 5. Mirror of a tree
-6. Inorder traversal both using recursion and iteration //Day68 & 
+6. Inorder traversal both using recursion and iteration //Day68
 7. PostOrder traversal both using recursion and iteration //Day68
 8. PreOrder traversal both using recursion and iteration //@Day68
 9. Left view of a tree //@Day70

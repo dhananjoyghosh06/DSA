@@ -109,6 +109,7 @@ void mirror(Node root) {
     mirror(root.left);
     mirror(root.right);
     
+    //swaping left to right and vice versa
     Node temp = root.left;
     root.left = root.right;
     root.right = temp;
@@ -126,10 +127,11 @@ void mirror2(Node node) {
     while(!q.isEmpty()){
         Node front = q.poll();
         
-       
+       //swaping left to right and vice versa
         Node temp = front.left;
         front.left = front.right;
         front.right = temp;
+
         if(front.left != null) q.offer(front.left);
         if(front.right != null) q.offer(front.right);
     }
