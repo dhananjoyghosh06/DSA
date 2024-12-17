@@ -1,0 +1,5 @@
+1. N meetings in a room // @Day77
+2. Maximum Meetings in One Room // @Day77
+3. Shop in candy store // @Day77
+4. Check if it is possible to survive on Island //@Day77
+5. 

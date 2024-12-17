@@ -8,7 +8,7 @@ class SolutionH {
         if(root == null) return 0;
         int op1 = diameterOfBinaryTree(root.left);
         int op2 = diameterOfBinaryTree(root.right);
-        int op3 = height(root.left)+ height(root.right);
+        int op3 = height(root.left) + height(root.right);
         int op4 =  Math.max(op1,op2);
         return Math.max(op3,op4);
     }

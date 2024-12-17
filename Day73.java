@@ -291,7 +291,7 @@ static List<Integer> inOrder(Node root) {
     return result;
 }
 
-//Q5. Flatten a linkedlist 
+//Q5. Flatten binary tree a linkedlist 
 //TC-O(N)
 //SC-O(1) --- When we get that we need to do something with binary tree with O(1) TC then we should use of look upon Morris Traversal
 

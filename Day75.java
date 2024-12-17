@@ -1,7 +1,29 @@
 //Q1. Iterative approach of postorder with one stack 
 //TC-O(N)
 //SC-O(N)
-
+import java.util.*;
+class TreeNode
+{
+        int val;
+        Node left;
+        Node right;
+        TreeNode(int val){
+            this.val = val;
+            this.left = null;
+            this.right = null;
+        }
+} 
+class Node
+{
+        int data;
+        Node left;
+        Node right;
+        Node(int data){
+            this.data = data;
+            this.left = null;
+            this.right = null;
+        }
+} 
 class Tree
 {
     //Function to return a list containing the postorder traversal of the tree.
@@ -40,7 +62,7 @@ class Tree
 //Two Stack approach
 //SC-O(N)
 //TC-O(N)
-class Solution {
+class Solution3 {
     public List<Integer> postorderTraversal(TreeNode root) {
         
         List<Integer> ans = new ArrayList<Integer>();
