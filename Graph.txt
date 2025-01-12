@@ -1,1 +1,16 @@
-//Q1. Matrix Representation of  a Udirected Graph
+Q1. Matrix Representation of  a Udirected Graph //@Day78
+Q2. BFS traversal of a Graph //@Day78
+Q3. DFS traversal of a graph //@Day78
+Q4. Cycle detection of a graph using DFS//@Day78
+Q5. Toplogical Sort using DFS // @Day79
+Q6. Topology Sort using Kahn's algorithm OR using BFS //@Day79
+Q7. Cycle Detection using BFS -- // @Day80
+Q8. Shortest Path in a Unweighted Graph -- // @Day80
+Q9. Shortest Path in Weighted Acyclic Directed Graph -- //@Day80
+Q10. Shortest Path in Weighted Acyclic Undirected Graph using Dijkstra's algorithm -- //@Day80
+Q11. Prim's algorithm to find minimum spanning tree from a graph --//@Day80
+Q12. Kruskal's algorithm to find minimum spanning tree  -- //@Day81
+Q13. Find Bridges in a graph using Brute Force and Tarjan's Algo -- //@Day81
+Q14. Find Articulation point in graph using Brute Force and Tarjan's Algo -- //@Day81
+Q15. Kosaraju's algorithm for finding strongly connected component -- //@Day82
+Q16. Bellmenford algorithm for find the negetive cycle . If NC is not present in the graph then find the Shortest path. -- //@Day82

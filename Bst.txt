@@ -15,8 +15,8 @@
 15. Diagonal traversal of a binary tree //@Day70
 16. Boundary traversal of a binary tree // @Day69
 17. Construct Binary tree from String with bracket representation //@ Day78
-18. Convert binary tree with doubly linked list 
-19. Convert binary tree into sum tree 
+18. Convert binary tree with doubly linked list //Main.java
+19. Convert binary tree into sum tree //Main.java
 20. Construct binary tree from Inorder and PreOrder traversal // @Day73
 **. Construct binary tree using Postorder and inorder traversal //@Day73
 21. Find minimum swaps required to Convert a binary tree into BST //@Day77
