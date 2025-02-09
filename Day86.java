@@ -350,3 +350,128 @@ class Solution {
     }
 
 }
+
+//maximal Size of square  -- Top down approach
+//TC-O(N*N)
+//SC-O(N+N + N*N)
+
+class Helper{
+    public int ans;
+    Helper(int ans){
+        this.ans = ans;
+    }
+}
+class Solution {
+    static int maxSquare(int mat[][]) {
+        // code here
+        Helper h = new Helper(0);
+        int row = mat.length;
+        int col = mat[0].length;
+        int[][] dp = new int[row+1][col+1] ;
+        for(int [] arr : dp){
+            Arrays.fill(arr,-1);
+        }
+         int maxSquareSize = 0;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                if (mat[i][j] == 1) {
+                    maxSquareSize = Math.max(maxSquareSize, solve(mat, i, j, dp));
+                }
+            }
+        }
+        return maxSquareSize;
+    }
+    static int solve(int[][] mat, int i, int j, int[][] dp){
+        if(i>=mat.length || j>=mat[0].length) return 0;
+        
+        if(dp[i][j] != -1) return dp[i][j];
+        
+        if(mat[i][j] == 0) return dp[i][j] = 0;
+    
+        int ans = 0;
+        int right = solve(mat,i,j+1,dp);
+        int down = solve(mat,i+1,j,dp);
+        int diagonal = solve(mat,i+1,j+1,dp);
+        
+        ans = 1+ Math.min(right, Math.min(down, diagonal));
+
+        
+        return dp[i][j] = ans;
+    }
+}
+
+//Tabulation Approach
+//SC-O(N*N)
+//TC-O(N*N)
+
+class Solution {
+    static int maxSquare(int mat[][]) {
+        // code here
+       
+        int row = mat.length;
+        int col = mat[0].length;
+        int[][] dp = new int[row+1][col+1] ;
+        for(int [] arr : dp){
+            Arrays.fill(arr,0);
+        }
+        int maxi = 0;
+        for(int i=row-1;i>=0;i--){
+            for(int j=col-1;j>=0;j--){
+                if(mat[i][j] == 1){
+                    int ans = 0;
+                int right = dp[i][j+1];
+                int down = dp[i+1][j];
+                int diagonal = dp[i+1][j+1];
+                
+                ans = 1+ Math.min(right, Math.min(down, diagonal));
+                maxi = Math.max(ans,maxi);
+                 dp[i][j] = ans;
+                }
+                
+                
+               
+            }
+        }
+        return maxi;
+    }
+    
+}
+
+
+//Space Optimisation
+//TC-O(N*N)
+//SC-O(N)
+
+class Solution {
+    static int maxSquare(int mat[][]) {
+        // code here
+       
+        int row = mat.length;
+        int col = mat[0].length;
+        int[] curr = new int[col+1];
+        Arrays.fill(curr,0);
+        int[] next = new int[col+1];
+        Arrays.fill(next,0);
+        int maxi = 0;
+        for(int i=row-1;i>=0;i--){
+            for(int j=col-1;j>=0;j--){
+                if(mat[i][j] == 1){
+                    int ans = 0;
+                    int right = curr[j+1];
+                    int down = next[j];
+                    int diagonal = next[j+1];
+                    
+                    ans = 1+ Math.min(right, Math.min(down, diagonal));
+                    maxi = Math.max(ans,maxi);
+                     curr[j] = ans;
+                }else{
+                    curr[j] = 0;
+                }
+               
+            }
+            next = curr.clone();
+        }
+        return maxi;
+    }
+    
+}

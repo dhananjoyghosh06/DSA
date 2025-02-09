@@ -4,7 +4,7 @@
 4. Write a code to cheak whether a string is a rotation of another // @Day21
 5. Count and say problem // @Day 22
 6. Write a program to find the longest palindrome in a string //@Day23
-7. Find longest recurring subsequence in String // dew  brute force will find all the subsequences and store it . then store all the frequencies of the subsequences .
+7. Find longest recurring subsequence in String // due  brute force will find all the subsequences and store it . then store all the frequencies of the subsequences .
 8. Print all subsequece of a string // @Day26
 9. Print all permutations of a given string //@Day26
 10. Split the binary string into two substring with equal 0's and 1's // @Day26
